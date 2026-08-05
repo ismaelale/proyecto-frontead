@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root{
+  --fondo : #0f0d24;
+  --borders : #090455;
+  --color-input: #dad5d5;
+  --color-div-request: #161436;
+  --color-list: #131030;
+  --color-menu: #121029;
+}
+
+.contenedor-principal{
+    background-color: var(--fondo);
+    
+}
+
+.div-request{
+    background-color: var(--color-div-request);
+    border: 1px solid var(--borders);
+}
+
+.menu-lateral{
+    background-color: var(--color-menu);
+}
+
+.div-request input, select{
+    width: 13rem;
+    text-align: center;
+    background-color: var(--color-input);
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0;
+    color: #000;
+}
+
+.div-request section{
+    padding-top: 0.4rem;
+    padding-bottom: 1rem;
+}
+
+.listado{
+    background-color: var(--color-list);
+    margin: 1rem 4rem 0 5rem;
+    padding: 1rem 1rem;
+    border-radius: 7px;
+}
+
+.listado li{
+    list-style: none;
+}
+
