@@ -12,7 +12,7 @@ const vistaActual = ref('customers');
     <aside class="menu-lateral w-64 text-white flex-shrink-0">
         <h3 class="text-center pt-10">DASHBOARD</h3>
         <nav class="p-10">
-            <ul class="flex flex-col gap-10">
+            <ul class="links-enlaces flex flex-col gap-10">
                 <li>
                     <a @click.prevent="vistaActual = 'customers'" data-vista="customers" class="links cursor-pointer">Customer Regitration</a>
                 </li>

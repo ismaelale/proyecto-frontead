@@ -1,7 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './view/HelloWorld.vue'
+import Login from './view/Login.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <router-view/>
 </template>

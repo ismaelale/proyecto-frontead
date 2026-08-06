@@ -9,28 +9,51 @@
   --color-menu: #121029;
 }
 
+/* login */
+
+.seccion-login-input input{
+    border: 1px solid #000;
+    width: 15rem;
+}
+
+.seccion-login-input section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#boton-ingresar{
+    background-color: #acabbd;
+}
+
+/* Home */
 .contenedor-principal{
-    background-color: var(--fondo);
+    color: #000;
     
 }
 
 .div-request{
-    background-color: var(--color-div-request);
+    
     border: 1px solid var(--borders);
 }
 
 .menu-lateral{
-    background-color: var(--color-menu);
+    color: #000;
+    background-color: #aaaabb;
 }
 
 .div-request input, select{
     width: 13rem;
     text-align: center;
-    background-color: var(--color-input);
     border: none;
     border-radius: 5px;
     padding: 0.3rem 0;
     color: #000;
+    background-color: #aaaabb;
+}
+
+.div-request input{
+    
 }
 
 .div-request section{
@@ -39,7 +62,6 @@
 }
 
 .listado{
-    background-color: var(--color-list);
     margin: 1rem 4rem 0 5rem;
     padding: 1rem 1rem;
     border-radius: 7px;
@@ -47,5 +69,12 @@
 
 .listado li{
     list-style: none;
+}
+
+.links-enlaces li{
+    padding: 0.4rem;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
