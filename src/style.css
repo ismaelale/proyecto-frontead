@@ -9,6 +9,11 @@
   --color-menu: #121029;
 }
 
+*{
+    border: 1px solid red;
+
+}
+
 /* login */
 
 .seccion-login-input input{
@@ -32,6 +37,8 @@
     
 }
 
+
+
 .div-request{
     
     border: 1px solid var(--borders);
@@ -42,18 +49,19 @@
     background-color: #aaaabb;
 }
 
+.menu-lateral li:hover {
+    background-color: #878796;
+    transition: 0.2s;
+}
+
 .div-request input, select{
-    width: 13rem;
+    width: 15rem;
     text-align: center;
     border: none;
     border-radius: 5px;
     padding: 0.3rem 0;
     color: #000;
     background-color: #aaaabb;
-}
-
-.div-request input{
-    
 }
 
 .div-request section{
@@ -71,10 +79,8 @@
     list-style: none;
 }
 
-.links-enlaces li{
-    padding: 0.4rem;
-    text-align: center;
+.links-enlaces a{
+    padding: 0.3rem;
     border-radius: 5px;
     cursor: pointer;
 }
-
